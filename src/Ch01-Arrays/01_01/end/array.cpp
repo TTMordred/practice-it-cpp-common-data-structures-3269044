@@ -13,7 +13,7 @@ int main()
     int numbers2[] = {1, 2, 3, 4, 5};
 
     // Brace initialization
-    int numbers3[] {1, 2, 3, 4, 5};
+    int numbers3[]{1, 2, 3, 4, 5};
 
     // Reads the first element
     int first_number = numbers[0];
