@@ -4,12 +4,12 @@ using namespace std;
 int calculateSum(const int arr[], size_t size)
 {
     // handle edge cases
-    if(size == 0)
+    if (size == 0)
     {
         return 0;
     }
 
-    if(size == 1)
+    if (size == 1)
     {
         return arr[0];
     }
@@ -24,6 +24,6 @@ int calculateSum(const int arr[], size_t size)
 
 int main()
 {
-    const int ints[] {1, -7, 17};
+    const int ints[]{1, -7, 17};
     cout << "The sum of all elements in the array is " << calculateSum(ints, 3) << endl;
 }

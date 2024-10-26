@@ -21,14 +21,16 @@ int main()
     // Modifies the third element
     numbers[2] = 42;
 
+    int array[]{1, 2, 3, 4, 5};
+
     // Iterates over the numbers array using a for loop
     for (int i = 0; i < 5; ++i)
     {
-        cout << "Element at index " << i << ": " << numbers[i] << endl;
+        cout << "Element at index " << i << ": " << array[i] << endl;
     }
 
     // Iterates over the numbers array using a foreach loop
-    for (int number : numbers)
+    for (int number : array)
     {
         cout << "Element: " << number << endl;
     }
